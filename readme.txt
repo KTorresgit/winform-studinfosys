@@ -6,4 +6,3 @@ Before attempting to run my SIS Application:
 
 3. Set username and password to the Admin table, so that you can login.
 
-Have CrystalReport problem, cannot view all entire record.
