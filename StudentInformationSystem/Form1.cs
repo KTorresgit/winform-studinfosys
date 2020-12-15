@@ -58,8 +58,7 @@ namespace StudentInformationSystem
         //BTN INSERT DATA --START
         private async void button1_Click(object sender, EventArgs e)
         {
-           
-            if(pictureboximage.Image == null)
+            if (pictureboximage.Image == null)
             {
                 labelimagevalidate.Visible = true;
                 await Task.Delay(1000);
@@ -275,6 +274,7 @@ namespace StudentInformationSystem
             } //--end
             else
             {
+                button1.Enabled = false;
                 SqlConnection sqlcnn;
                 sqlcnn = new SqlConnection(conn_string);
                 sqlcnn.Open();
@@ -347,17 +347,18 @@ namespace StudentInformationSystem
                 {
                     Success s = new Success();
                     s.Show();
-                    await Task.Delay(2000);
+                    await Task.Delay(1000);
                     s.Close();
                     await Task.Delay(1000);
                     ClearInputField();
+                    button1.Enabled = true;
                     //DisplayUserData();
                 }
                 else
                 {
                     Failed f = new Failed();
                     f.Show();
-                    await Task.Delay(2000);
+                    await Task.Delay(1000);
                     f.Close();
                     //ClearInputField();
                 }

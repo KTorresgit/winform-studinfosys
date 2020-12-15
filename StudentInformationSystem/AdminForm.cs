@@ -518,16 +518,15 @@ namespace StudentInformationSystem
                     Contact();
                     Parents();
                     School();
-                    await Task.Delay(6000);
+                    await Task.Delay(1000);
                     s.Close();
-                    await Task.Delay(600);
                     ClearInputField();
                 }
                 else
                 {
                     Failed f = new Failed();
                     f.Show();
-                    await Task.Delay(2000);
+                    await Task.Delay(1000);
                     f.Close();
                     //ClearInputField();
                 }
@@ -621,16 +620,15 @@ namespace StudentInformationSystem
                 Contact();
                 Parents();
                 School();
-                await Task.Delay(6000);
+                await Task.Delay(1000);
                 s.Close();
-                await Task.Delay(600);
                 ClearInputField();
             }
             else
             {
                 Failed f = new Failed();
                 f.Show();
-                await Task.Delay(6000);
+                await Task.Delay(1000);
                 f.Close();
             }
             sqlcnn.Close();
@@ -684,16 +682,15 @@ namespace StudentInformationSystem
                 Contact();
                 Parents();
                 School();
-                await Task.Delay(6000);
+                await Task.Delay(1000);
                 s.Close();
-                await Task.Delay(600);
                 ClearInputField();
             }
             else
             {
                 FailedDeleted f = new FailedDeleted();
                 f.Show();
-                await Task.Delay(6000);
+                await Task.Delay(1000);
                 f.Close();
             }
             sqlcnn.Close();

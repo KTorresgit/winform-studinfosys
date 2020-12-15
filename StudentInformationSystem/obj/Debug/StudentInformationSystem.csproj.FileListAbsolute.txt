@@ -17,7 +17,6 @@ C:\Users\perfe\Desktop\StudentInformationSystem\StudentInformationSystem\obj\Deb
 C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\bin\Debug\StudentInformationSystem.exe.config
 C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\bin\Debug\StudentInformationSystem.exe
 C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\bin\Debug\StudentInformationSystem.pdb
-C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\obj\Debug\StudentInformationSystem.csprojAssemblyReference.cache
 C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\obj\Debug\StudentInformationSystem.AdminForm.resources
 C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\obj\Debug\StudentInformationSystem.Deleted.resources
 C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\obj\Debug\StudentInformationSystem.Failed.resources
@@ -52,3 +51,4 @@ C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSyste
 C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\bin\Debug\ShockwaveFlashObjects.dll
 C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\obj\Debug\StudentInformationSystem.Report.resources
 C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\obj\Debug\StudentInformationSystem.reportload.resources
+C:\Users\perfe\OneDrive\Desktop\StudentInformationSystem\StudentInformationSystem\obj\Debug\StudentInformationSystem.csprojAssemblyReference.cache

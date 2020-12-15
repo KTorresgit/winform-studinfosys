@@ -19,7 +19,6 @@ namespace StudentInformationSystem
     public partial class Report : Form
     {
         ReportDocument rd = new ReportDocument();
-
         //DB CONNECTION STRING --START
         string connection_string = "Data Source=DESKTOP-B7LVHLT;Initial Catalog=SIS;Integrated Security=True";
         //--END
@@ -42,15 +41,17 @@ namespace StudentInformationSystem
             //--END
 
             // DISPLAY REPORT --START
-            SqlCommand sqlcmd = new SqlCommand("sp_crystal_report", sqlcnn);
+            DataTable dt = new DataTable();
+            SqlCommand sqlcmd = new SqlCommand("sp_stud_report", sqlcnn);
             sqlcmd.CommandType = CommandType.StoredProcedure;
             SqlDataAdapter sda = new SqlDataAdapter(sqlcmd);
-
-            DataTable dt = new DataTable();
+        
             sda.Fill(dt);
             rd.SetDataSource(dt);
             CrystalReport.ReportSource = rd;
             //--END
+
+            sqlcnn.Close();
         }
     }
 }
