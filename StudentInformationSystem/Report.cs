@@ -53,5 +53,10 @@ namespace StudentInformationSystem
 
             sqlcnn.Close();
         }
+
+        private void CrystalReport_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

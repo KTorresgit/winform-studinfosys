@@ -40,12 +40,13 @@ namespace StudentInformationSystem
             this.CrystalReport.Cursor = System.Windows.Forms.Cursors.Default;
             this.CrystalReport.Dock = System.Windows.Forms.DockStyle.Fill;
             this.CrystalReport.Location = new System.Drawing.Point(0, 0);
-            this.CrystalReport.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CrystalReport.Margin = new System.Windows.Forms.Padding(4);
             this.CrystalReport.Name = "CrystalReport";
             this.CrystalReport.Size = new System.Drawing.Size(1200, 623);
             this.CrystalReport.TabIndex = 0;
             this.CrystalReport.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             this.CrystalReport.ToolPanelWidth = 300;
+            this.CrystalReport.Load += new System.EventHandler(this.CrystalReport_Load);
             // 
             // Report
             // 
@@ -57,7 +58,7 @@ namespace StudentInformationSystem
             this.Controls.Add(this.CrystalReport);
             this.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Report";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Report";
