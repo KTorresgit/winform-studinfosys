@@ -4,6 +4,7 @@
 --/// Subject        : DBMS
 --/// </summary>
 CREATE DATABASE SIS
+GO
 USE SIS
 
 CREATE TABLE Admin (
