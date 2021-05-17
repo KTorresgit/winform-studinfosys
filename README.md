@@ -1,4 +1,3 @@
-Before attempting to run my SIS Application:
 
 1. Execute all query first, inside the db-setup-query folder to your Microsoft SQL Sever.
 
